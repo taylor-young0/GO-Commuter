@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		EFDF1CE72AA25005001B0996 /* GO_CommuterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDF1CE62AA25005001B0996 /* GO_CommuterApp.swift */; };
-		EFDF1CE92AA25005001B0996 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDF1CE82AA25005001B0996 /* ContentView.swift */; };
+		EFDF1CE92AA25005001B0996 /* UnionDeparturesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDF1CE82AA25005001B0996 /* UnionDeparturesView.swift */; };
 		EFDF1CEB2AA25006001B0996 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFDF1CEA2AA25006001B0996 /* Assets.xcassets */; };
 		EFDF1CEE2AA25006001B0996 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFDF1CED2AA25006001B0996 /* Preview Assets.xcassets */; };
 		EFDF1CF82AA25006001B0996 /* GO_CommuterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDF1CF72AA25006001B0996 /* GO_CommuterTests.swift */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		EFDF1CE32AA25005001B0996 /* GO Commuter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GO Commuter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFDF1CE62AA25005001B0996 /* GO_CommuterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GO_CommuterApp.swift; sourceTree = "<group>"; };
-		EFDF1CE82AA25005001B0996 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EFDF1CE82AA25005001B0996 /* UnionDeparturesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnionDeparturesView.swift; sourceTree = "<group>"; };
 		EFDF1CEA2AA25006001B0996 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EFDF1CED2AA25006001B0996 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EFDF1CF32AA25006001B0996 /* GO CommuterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GO CommuterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -95,7 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				EFDF1CE62AA25005001B0996 /* GO_CommuterApp.swift */,
-				EFDF1CE82AA25005001B0996 /* ContentView.swift */,
+				EFDF1CE82AA25005001B0996 /* UnionDeparturesView.swift */,
 				EFDF1CEA2AA25006001B0996 /* Assets.xcassets */,
 				EFDF1CEC2AA25006001B0996 /* Preview Content */,
 			);
@@ -257,7 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EFDF1CE92AA25005001B0996 /* ContentView.swift in Sources */,
+				EFDF1CE92AA25005001B0996 /* UnionDeparturesView.swift in Sources */,
 				EFDF1CE72AA25005001B0996 /* GO_CommuterApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
