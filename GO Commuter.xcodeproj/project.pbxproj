@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFDF1CE72AA25005001B0996 /* GO_CommuterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDF1CE62AA25005001B0996 /* GO_CommuterApp.swift */; };
+		EFDF1CE92AA25005001B0996 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDF1CE82AA25005001B0996 /* ContentView.swift */; };
+		EFDF1CEB2AA25006001B0996 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFDF1CEA2AA25006001B0996 /* Assets.xcassets */; };
+		EFDF1CEE2AA25006001B0996 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFDF1CED2AA25006001B0996 /* Preview Assets.xcassets */; };
+		EFDF1CF82AA25006001B0996 /* GO_CommuterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDF1CF72AA25006001B0996 /* GO_CommuterTests.swift */; };
+		EFDF1D022AA25006001B0996 /* GO_CommuterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDF1D012AA25006001B0996 /* GO_CommuterUITests.swift */; };
+		EFDF1D042AA25006001B0996 /* GO_CommuterUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFDF1D032AA25006001B0996 /* GO_CommuterUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFDF1CF42AA25006001B0996 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFDF1CDB2AA25005001B0996 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFDF1CE22AA25005001B0996;
+			remoteInfo = "GO Commuter";
+		};
+		EFDF1CFE2AA25006001B0996 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFDF1CDB2AA25005001B0996 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFDF1CE22AA25005001B0996;
+			remoteInfo = "GO Commuter";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EFDF1CE32AA25005001B0996 /* GO Commuter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GO Commuter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFDF1CE62AA25005001B0996 /* GO_CommuterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GO_CommuterApp.swift; sourceTree = "<group>"; };
+		EFDF1CE82AA25005001B0996 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EFDF1CEA2AA25006001B0996 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFDF1CED2AA25006001B0996 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EFDF1CF32AA25006001B0996 /* GO CommuterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GO CommuterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFDF1CF72AA25006001B0996 /* GO_CommuterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GO_CommuterTests.swift; sourceTree = "<group>"; };
+		EFDF1CFD2AA25006001B0996 /* GO CommuterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "GO CommuterUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFDF1D012AA25006001B0996 /* GO_CommuterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GO_CommuterUITests.swift; sourceTree = "<group>"; };
+		EFDF1D032AA25006001B0996 /* GO_CommuterUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GO_CommuterUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFDF1CE02AA25005001B0996 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDF1CF02AA25006001B0996 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDF1CFA2AA25006001B0996 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFDF1CDA2AA25005001B0996 = {
+			isa = PBXGroup;
+			children = (
+				EFDF1CE52AA25005001B0996 /* GO Commuter */,
+				EFDF1CF62AA25006001B0996 /* GO CommuterTests */,
+				EFDF1D002AA25006001B0996 /* GO CommuterUITests */,
+				EFDF1CE42AA25005001B0996 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFDF1CE42AA25005001B0996 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFDF1CE32AA25005001B0996 /* GO Commuter.app */,
+				EFDF1CF32AA25006001B0996 /* GO CommuterTests.xctest */,
+				EFDF1CFD2AA25006001B0996 /* GO CommuterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFDF1CE52AA25005001B0996 /* GO Commuter */ = {
+			isa = PBXGroup;
+			children = (
+				EFDF1CE62AA25005001B0996 /* GO_CommuterApp.swift */,
+				EFDF1CE82AA25005001B0996 /* ContentView.swift */,
+				EFDF1CEA2AA25006001B0996 /* Assets.xcassets */,
+				EFDF1CEC2AA25006001B0996 /* Preview Content */,
+			);
+			path = "GO Commuter";
+			sourceTree = "<group>";
+		};
+		EFDF1CEC2AA25006001B0996 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EFDF1CED2AA25006001B0996 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EFDF1CF62AA25006001B0996 /* GO CommuterTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFDF1CF72AA25006001B0996 /* GO_CommuterTests.swift */,
+			);
+			path = "GO CommuterTests";
+			sourceTree = "<group>";
+		};
+		EFDF1D002AA25006001B0996 /* GO CommuterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EFDF1D012AA25006001B0996 /* GO_CommuterUITests.swift */,
+				EFDF1D032AA25006001B0996 /* GO_CommuterUITestsLaunchTests.swift */,
+			);
+			path = "GO CommuterUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFDF1CE22AA25005001B0996 /* GO Commuter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFDF1D072AA25006001B0996 /* Build configuration list for PBXNativeTarget "GO Commuter" */;
+			buildPhases = (
+				EFDF1CDF2AA25005001B0996 /* Sources */,
+				EFDF1CE02AA25005001B0996 /* Frameworks */,
+				EFDF1CE12AA25005001B0996 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GO Commuter";
+			productName = "GO Commuter";
+			productReference = EFDF1CE32AA25005001B0996 /* GO Commuter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFDF1CF22AA25006001B0996 /* GO CommuterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFDF1D0A2AA25006001B0996 /* Build configuration list for PBXNativeTarget "GO CommuterTests" */;
+			buildPhases = (
+				EFDF1CEF2AA25006001B0996 /* Sources */,
+				EFDF1CF02AA25006001B0996 /* Frameworks */,
+				EFDF1CF12AA25006001B0996 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFDF1CF52AA25006001B0996 /* PBXTargetDependency */,
+			);
+			name = "GO CommuterTests";
+			productName = "GO CommuterTests";
+			productReference = EFDF1CF32AA25006001B0996 /* GO CommuterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFDF1CFC2AA25006001B0996 /* GO CommuterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFDF1D0D2AA25006001B0996 /* Build configuration list for PBXNativeTarget "GO CommuterUITests" */;
+			buildPhases = (
+				EFDF1CF92AA25006001B0996 /* Sources */,
+				EFDF1CFA2AA25006001B0996 /* Frameworks */,
+				EFDF1CFB2AA25006001B0996 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFDF1CFF2AA25006001B0996 /* PBXTargetDependency */,
+			);
+			name = "GO CommuterUITests";
+			productName = "GO CommuterUITests";
+			productReference = EFDF1CFD2AA25006001B0996 /* GO CommuterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFDF1CDB2AA25005001B0996 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					EFDF1CE22AA25005001B0996 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					EFDF1CF22AA25006001B0996 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = EFDF1CE22AA25005001B0996;
+					};
+					EFDF1CFC2AA25006001B0996 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = EFDF1CE22AA25005001B0996;
+					};
+				};
+			};
+			buildConfigurationList = EFDF1CDE2AA25005001B0996 /* Build configuration list for PBXProject "GO Commuter" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFDF1CDA2AA25005001B0996;
+			productRefGroup = EFDF1CE42AA25005001B0996 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFDF1CE22AA25005001B0996 /* GO Commuter */,
+				EFDF1CF22AA25006001B0996 /* GO CommuterTests */,
+				EFDF1CFC2AA25006001B0996 /* GO CommuterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFDF1CE12AA25005001B0996 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDF1CEE2AA25006001B0996 /* Preview Assets.xcassets in Resources */,
+				EFDF1CEB2AA25006001B0996 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDF1CF12AA25006001B0996 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDF1CFB2AA25006001B0996 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFDF1CDF2AA25005001B0996 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDF1CE92AA25005001B0996 /* ContentView.swift in Sources */,
+				EFDF1CE72AA25005001B0996 /* GO_CommuterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDF1CEF2AA25006001B0996 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDF1CF82AA25006001B0996 /* GO_CommuterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFDF1CF92AA25006001B0996 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFDF1D042AA25006001B0996 /* GO_CommuterUITestsLaunchTests.swift in Sources */,
+				EFDF1D022AA25006001B0996 /* GO_CommuterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFDF1CF52AA25006001B0996 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFDF1CE22AA25005001B0996 /* GO Commuter */;
+			targetProxy = EFDF1CF42AA25006001B0996 /* PBXContainerItemProxy */;
+		};
+		EFDF1CFF2AA25006001B0996 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFDF1CE22AA25005001B0996 /* GO Commuter */;
+			targetProxy = EFDF1CFE2AA25006001B0996 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EFDF1D052AA25006001B0996 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFDF1D062AA25006001B0996 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFDF1D082AA25006001B0996 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GO Commuter/Preview Content\"";
+				DEVELOPMENT_TEAM = 6JTMH9S5KE;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.taylor-young0.GO-Commuter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFDF1D092AA25006001B0996 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GO Commuter/Preview Content\"";
+				DEVELOPMENT_TEAM = 6JTMH9S5KE;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.taylor-young0.GO-Commuter";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EFDF1D0B2AA25006001B0996 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6JTMH9S5KE;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.taylor-young0.GO-CommuterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GO Commuter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GO Commuter";
+			};
+			name = Debug;
+		};
+		EFDF1D0C2AA25006001B0996 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6JTMH9S5KE;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.taylor-young0.GO-CommuterTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GO Commuter.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GO Commuter";
+			};
+			name = Release;
+		};
+		EFDF1D0E2AA25006001B0996 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6JTMH9S5KE;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.taylor-young0.GO-CommuterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GO Commuter";
+			};
+			name = Debug;
+		};
+		EFDF1D0F2AA25006001B0996 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6JTMH9S5KE;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "io.github.taylor-young0.GO-CommuterUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "GO Commuter";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFDF1CDE2AA25005001B0996 /* Build configuration list for PBXProject "GO Commuter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFDF1D052AA25006001B0996 /* Debug */,
+				EFDF1D062AA25006001B0996 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFDF1D072AA25006001B0996 /* Build configuration list for PBXNativeTarget "GO Commuter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFDF1D082AA25006001B0996 /* Debug */,
+				EFDF1D092AA25006001B0996 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFDF1D0A2AA25006001B0996 /* Build configuration list for PBXNativeTarget "GO CommuterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFDF1D0B2AA25006001B0996 /* Debug */,
+				EFDF1D0C2AA25006001B0996 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFDF1D0D2AA25006001B0996 /* Build configuration list for PBXNativeTarget "GO CommuterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFDF1D0E2AA25006001B0996 /* Debug */,
+				EFDF1D0F2AA25006001B0996 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFDF1CDB2AA25005001B0996 /* Project object */;
+}
